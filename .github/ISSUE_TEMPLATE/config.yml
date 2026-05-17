@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project Documentation
+    url: https://github.com/kpassoubady/tamil-glossory
+    about: "Learn more about the Tamil AI Glossary project"
+  - name: Report Security Issue
+    url: mailto:kangs@kavinschool.com
+    about: "Found a security vulnerability? Email us privately"

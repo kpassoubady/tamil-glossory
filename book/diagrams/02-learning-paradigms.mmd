@@ -1,0 +1,26 @@
+flowchart TB
+    ML["இயந்திரக் கற்றல்<br/>(ML)"] --> SL["மேற்பார்வையிட்ட கற்றல்<br/>(Supervised)"]
+    ML --> UL["மேற்பார்வையற்ற கற்றல்<br/>(Unsupervised)"]
+    ML --> SSL["தன்மேற்பார்வைக் கற்றல்<br/>(Self-supervised)"]
+    ML --> RL["வலுவூட்டல் கற்றல்<br/>(RL)"]
+
+    SL --> CLS["வகைப்பாடு<br/>(Classification)"]
+    UL --> CLU["கொத்தாக்கம்<br/>(Clustering)"]
+
+    RL --> RLHF["மனிதப் பின்னூட்ட<br/>வலுவூட்டல் கற்றல்<br/>(RLHF)"]
+    RL --> RLAIF["AI பின்னூட்ட<br/>வலுவூட்டல் கற்றல்<br/>(RLAIF)"]
+
+    ML --> TL["இடமாற்றக் கற்றல்<br/>(Transfer)"]
+    ML --> FL["கூட்டமைப்புக் கற்றல்<br/>(Federated)"]
+
+    style ML fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style SL fill:#e8f5e9,stroke:#1a4d2e
+    style UL fill:#e8f5e9,stroke:#1a4d2e
+    style SSL fill:#e8f5e9,stroke:#1a4d2e
+    style RL fill:#e8f5e9,stroke:#1a4d2e
+    style CLS fill:#e3f2fd,stroke:#1a4d2e
+    style CLU fill:#e3f2fd,stroke:#1a4d2e
+    style RLHF fill:#e3f2fd,stroke:#1a4d2e
+    style RLAIF fill:#e3f2fd,stroke:#1a4d2e
+    style TL fill:#e8f5e9,stroke:#1a4d2e
+    style FL fill:#e8f5e9,stroke:#1a4d2e

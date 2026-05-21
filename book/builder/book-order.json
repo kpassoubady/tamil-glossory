@@ -1,0 +1,186 @@
+{
+  "bookTitle": "தமிழ் AI கலைச்சொற்கள் — Tamil AI Glossary",
+  "outputFilename": "Tamil-AI-Glossary-v3.pdf",
+  "author": "Kangeyan Passoubady",
+  "language": "en-US",
+  "pageSettings": {
+    "header": "{title}",
+    "headerFallback": "{bookTitle}",
+    "headerRight": "{page} of {pages}",
+    "footerLeft": "{date}",
+    "footerCenter": "செய்யறிவு கலைச்சொற்கள்",
+    "footerRight": "Kangs | Kavin School",
+    "dateFormat": "%B %d, %Y"
+  },
+  "styleSettings": {
+    "pageSize": "6in 9in",
+    "margins": "0.75in 0.6in 0.75in 0.8in",
+    "fontFamily": "'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', Helvetica, Arial, sans-serif",
+    "monoFontFamily": "SF Mono, Monaco, Menlo, Consolas, Liberation Mono, monospace",
+    "bodyFontSize": "9pt",
+    "bodyLineHeight": "1.6",
+    "bodyColor": "#333333",
+    "headingColor": "#1a4d2e",
+    "h1FontSize": "14pt",
+    "h2FontSize": "12pt",
+    "h3FontSize": "11pt",
+    "h4FontSize": "10pt",
+    "codeFontSize": "8pt",
+    "tableFontSize": "7.5pt",
+    "codeBackground": "#f5f5f5",
+    "linkColor": "#0066cc",
+    "headerFontSize": "9px",
+    "footerFontSize": "8px",
+    "imageSizing": {
+      "hero-": {
+        "maxWidth": "55%",
+        "align": "center",
+        "marginTop": "0.4em",
+        "marginBottom": "1.2em"
+      },
+      "diagrams/": {
+        "maxWidth": "85%",
+        "align": "center",
+        "marginTop": "0.8em",
+        "marginBottom": "0.8em"
+      }
+    }
+  },
+  "tocSettings": {
+    "titleFontSize": 18,
+    "subtitleFontSize": 12,
+    "subtitleText": "பொருளடக்கம் — Table of Contents",
+    "entryFontSize": 10,
+    "footerFontSize": 8,
+    "showMainToc": false,
+    "lineColor": "#1a4d2e",
+    "entryColor": "#1a4d2e",
+    "footerColor": "#666666",
+    "fontFamily": "'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', Helvetica, Arial, sans-serif",
+    "altTocTitle": "தமிழ் AI கலைச்சொற்கள்",
+    "altTocSubtitle": "உள்ளடக்கம்",
+    "altTocPageLabel": "பக்கம்"
+  },
+  "contentProcessing": {
+    "admonitionHandling": {
+      "enabled": true,
+      "labelLanguage": "ta"
+    },
+    "footnoteHandling": {
+      "enabled": true
+    },
+    "blockquoteListHandling": {
+      "enabled": true
+    },
+    "titledListHandling": {
+      "enabled": true
+    }
+  },
+  "imageOptimization": {
+    "default": {
+      "maxWidth": 800,
+      "maxHeight": 1000,
+      "jpegQuality": 75,
+      "convertToJpeg": true
+    },
+    "covers": {
+      "maxWidth": 2400,
+      "maxHeight": 3200,
+      "jpegQuality": 95,
+      "convertToJpeg": false
+    }
+  },
+  "chapters": [
+    {
+      "section": "முன்னுரை — Preface",
+      "tocLabel": "முன்னுரை",
+      "files": [
+        "book/00-front-matter.md"
+      ]
+    },
+    {
+      "section": "1. செய்யறிவு அடிப்படைகள் — AI Foundations",
+      "tocLabel": "1. செய்யறிவு அடிப்படைகள்",
+      "files": [
+        "book/01-ai-foundations.md"
+      ]
+    },
+    {
+      "section": "2. இயந்திரக் கற்றல் — Machine Learning",
+      "tocLabel": "2. இயந்திரக் கற்றல்",
+      "files": [
+        "book/02-machine-learning.md"
+      ]
+    },
+    {
+      "section": "3. நரவலை & ஆழ்கற்றல் — Neural Networks & Deep Learning",
+      "tocLabel": "3. நரவலை & ஆழ்கற்றல்",
+      "files": [
+        "book/03-neural-networks.md"
+      ]
+    },
+    {
+      "section": "4. பயிற்சி & உகப்பாக்கம் — Training & Optimization",
+      "tocLabel": "4. பயிற்சி & உகப்பாக்கம்",
+      "files": [
+        "book/04-training-optimization.md"
+      ]
+    },
+    {
+      "section": "5. மாற்றுநர் & மொழிமாதிரிகள் — Transformers & Language Models",
+      "tocLabel": "5. மாற்றுநர் & மொழிமாதிரிகள்",
+      "files": [
+        "book/05-transformers-language-models.md"
+      ]
+    },
+    {
+      "section": "6. இயன்மொழியாள்கை — NLP & Text Processing",
+      "tocLabel": "6. இயன்மொழியாள்கை",
+      "files": [
+        "book/06-nlp-text-processing.md"
+      ]
+    },
+    {
+      "section": "7. உட்பொதிவுகள் & தேடல் — Embeddings & Search",
+      "tocLabel": "7. உட்பொதிவுகள் & தேடல்",
+      "files": [
+        "book/07-embeddings-search.md"
+      ]
+    },
+    {
+      "section": "8. தூண்டுவினா & ஊடாடல் — Prompting & Interaction",
+      "tocLabel": "8. தூண்டுவினா & ஊடாடல்",
+      "files": [
+        "book/08-prompting-interaction.md"
+      ]
+    },
+    {
+      "section": "9. செய்யறிவு முகவர்கள் & கருவிகள் — AI Agents & Tools",
+      "tocLabel": "9. செய்யறிவு முகவர்கள் & கருவிகள்",
+      "files": [
+        "book/09-agents-tools.md"
+      ]
+    },
+    {
+      "section": "10. பாதுகாப்பு, நெறிமுறை & மதிப்பீடு — Safety, Ethics & Evaluation",
+      "tocLabel": "10. பாதுகாப்பு, நெறிமுறை & மதிப்பீடு",
+      "files": [
+        "book/10-safety-ethics-evaluation.md"
+      ]
+    },
+    {
+      "section": "பிற்சேர்க்கை அ: கணினியியல் & உள்கட்டமைப்பு — Appendix A",
+      "tocLabel": "பிற்சேர்க்கை அ: கணினியியல் & உள்கட்டமைப்பு",
+      "files": [
+        "book/11-appendix-computing-infra.md"
+      ]
+    },
+    {
+      "section": "பிற்சேர்க்கை ஆ: துணை நூல்கள் & மேற்கோள்கள் — Appendix B",
+      "tocLabel": "பிற்சேர்க்கை ஆ: துணை நூல்கள் & மேற்கோள்கள்",
+      "files": [
+        "book/12-appendix-references.md"
+      ]
+    }
+  ]
+}

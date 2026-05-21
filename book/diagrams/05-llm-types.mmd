@@ -1,0 +1,28 @@
+flowchart TB
+    LM["மொழிமாதிரி<br/>(Language Model)"] --> CLM["காரணிய மொழி மாதிரி<br/>(Causal LM)<br/>இடம் → வலம்"]
+    LM --> MLM["திரைமூடிய மொழி மாதிரி<br/>(Masked LM)<br/>இருபக்கம்"]
+    
+    CLM --> LLM["பெருமொழி மாதிரி<br/>(LLM)<br/>GPT, Gemini, Claude"]
+    CLM --> SLM["சிறுமொழி மாதிரி<br/>(SLM)<br/>Phi, Gemma"]
+    
+    MLM --> BERT["BERT வகை<br/>மொழிப் புரிதல்"]
+
+    subgraph special["சிறப்புக் கட்டமைப்புகள்"]
+        direction LR
+        VLM["பார்வை-மொழி<br/>(VLM)"]
+        LAM["மொழிச்செயல்<br/>(LAM)"]
+        MoE["வல்லுநர் கலவை<br/>(MoE)"]
+    end
+
+    LLM --> special
+
+    style LM fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style CLM fill:#e8f5e9,stroke:#1a4d2e
+    style MLM fill:#e8f5e9,stroke:#1a4d2e
+    style LLM fill:#e3f2fd,stroke:#1a4d2e
+    style SLM fill:#e3f2fd,stroke:#1a4d2e
+    style BERT fill:#e3f2fd,stroke:#1a4d2e
+    style special fill:#f5f5f5,stroke:#1a4d2e
+    style VLM fill:#fff,stroke:#1a4d2e
+    style LAM fill:#fff,stroke:#1a4d2e
+    style MoE fill:#fff,stroke:#1a4d2e

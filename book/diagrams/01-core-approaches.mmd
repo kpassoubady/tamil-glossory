@@ -1,0 +1,28 @@
+flowchart TB
+    subgraph Approaches["AI அணுகுமுறைகள்"]
+        SYM["குறியியக்கியம்<br/>(Symbolism)"] ---|"விதிகள் & ஏரணம்"| ALGO["நெறிமுறை<br/>(Algorithm)"]
+        CON["இணைப்புக்கொள்கை<br/>(Connectionism)"] ---|"நரம்பணு வலைப்பின்னல்"| FM["அடிப்படை மாதிரி<br/>(Foundation Model)"]
+    end
+
+    subgraph Concepts["அடிப்படைக் கருத்துகள்"]
+        ABS["சாரப்படுத்தல்<br/>(Abstraction)"]
+        EMR["தோன்றுமியல்பு<br/>(Emergence)"] --> EA["வெளிப்படும் திறன்கள்<br/>(Emergent Abilities)"]
+    end
+
+    subgraph Openness["வெளியீட்டு முறை"]
+        OS["திறந்த மூலம்<br/>(Open Source)"]
+        OW["திறந்த எடை<br/>(Open Weight)"]
+        OS ---|"குறிமுறை + எடை"| FM2["அடிப்படை மாதிரி<br/>(Foundation Model)"]
+        OW ---|"எடை மட்டும்"| FM2
+    end
+
+    style SYM fill:#e8f5e9,stroke:#1a4d2e
+    style CON fill:#e8f5e9,stroke:#1a4d2e
+    style ALGO fill:#e8f5e9,stroke:#1a4d2e
+    style FM fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style ABS fill:#e8f5e9,stroke:#1a4d2e
+    style EMR fill:#e8f5e9,stroke:#1a4d2e
+    style EA fill:#e8f5e9,stroke:#1a4d2e
+    style OS fill:#e3f2fd,stroke:#1a4d2e
+    style OW fill:#e3f2fd,stroke:#1a4d2e
+    style FM2 fill:#1a4d2e,stroke:#0d3a1f,color:#fff

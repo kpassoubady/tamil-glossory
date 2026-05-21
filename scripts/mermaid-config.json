@@ -1,0 +1,9 @@
+{
+  "theme": "default",
+  "themeVariables": {
+    "fontFamily": "'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', sans-serif"
+  },
+  "flowchart": {
+    "useMaxWidth": false
+  }
+}

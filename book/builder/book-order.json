@@ -1,5 +1,5 @@
 {
-  "bookTitle": "தமிழ் AI கலைச்சொற்கள் — Tamil AI Glossary",
+  "bookTitle": "AI அலை: நீங்கள் தயாரா?",
   "outputFilename": "Tamil-AI-Glossary-v3.pdf",
   "author": "Kangeyan Passoubady",
   "language": "en-US",
@@ -8,7 +8,7 @@
     "headerFallback": "{bookTitle}",
     "headerRight": "{page} of {pages}",
     "footerLeft": "{date}",
-    "footerCenter": "செய்யறிவு கலைச்சொற்கள்",
+    "footerCenter": "தமிழில் 300+ செய்யறிவுக் கலைச்சொற்கள்",
     "footerRight": "Kangs | Kavin School",
     "dateFormat": "%B %d, %Y"
   },
@@ -57,7 +57,7 @@
     "entryColor": "#1a4d2e",
     "footerColor": "#666666",
     "fontFamily": "'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', Helvetica, Arial, sans-serif",
-    "altTocTitle": "தமிழ் AI கலைச்சொற்கள்",
+    "altTocTitle": "AI அலை: நீங்கள் தயாரா?",
     "altTocSubtitle": "உள்ளடக்கம்",
     "altTocPageLabel": "பக்கம்"
   },

@@ -39,9 +39,9 @@ Every chapter (01-10) must follow this exact sequence:
 
 ---
 
-<!-- IMAGE: concept map description -->
-![கருத்துரு வரைபடம்](images/concept-map-chNN.png)
-<!-- END IMAGE -->
+### 📰 AI வரலாற்றில் ஒரு துளி
+
+![வரலாற்றுப் படம்](images/drop-in-history-chNN.png)
 
 ---
 
@@ -66,7 +66,7 @@ Every chapter (01-10) must follow this exact sequence:
 
 ---
 
-## 🧠 அறிவுச் சோதனை — Knowledge Check
+## 🧠 அறிவுச் சோதனை
 
 (5 questions: பொருத்துக, கோடிட்ட இடம், சரியா/தவறா, பல தேர்வு)
 

@@ -1,0 +1,11 @@
+flowchart LR
+    A["'படிக்கவில்லையா'"] --> B["சொல்துண்டாக்கி<br/>(Tokenizer)"]
+    B --> C["படி | க்க | வில்லை | ஆ"]
+    C --> D["உட்பொதிவு<br/>எண்வெளிகள்<br/>(Embedding<br/>Vectors)"]
+    D --> E["[0.12, -0.34, ...]<br/>[0.56, 0.78, ...]<br/>[0.91, -0.23, ...]<br/>[-0.45, 0.67, ...]"]
+
+    style A fill:#fff3e0,stroke:#1a4d2e
+    style B fill:#e3f2fd,stroke:#1a4d2e
+    style C fill:#e8f5e9,stroke:#1a4d2e
+    style D fill:#f3e5f5,stroke:#1a4d2e
+    style E fill:#fce4ec,stroke:#1a4d2e

@@ -1,0 +1,36 @@
+flowchart TB
+    EMB["உட்பொதிவுகள்<br/>(Embeddings)"] --> VEC["திசையன்<br/>உட்பொதிவுகள்<br/>(Vector Embeddings)"]
+    EMB --> CTX["சூழல்<br/>உட்பொதிவு<br/>(Contextual)"]
+
+    VEC --> LS["உள்ளுறை வெளி<br/>(Latent Space)"]
+    VEC --> CS["கோண ஒப்புமை<br/>(Cosine Similarity)"]
+
+    VEC --> VDB["திசையன்<br/>தரவுத்தளம்<br/>(Vector DB)"]
+    VDB --> VS["திசையன் தேடல்<br/>(Vector Search)"]
+    VDB --> NS["நரவலைத் தேடல்<br/>(Neural Search)"]
+
+    VDB --> RAG["மீட்டெடுப்பு-மேம்படுத்திய<br/>இயற்றல்<br/>(RAG)"]
+    RAG --> GRAG["வரைபட RAG<br/>(GraphRAG)"]
+    RAG --> GRD["மெய்ப்பிணைப்பு<br/>(Grounding)"]
+
+    GRAG --> KG["அறிவு வரைபடம்<br/>(Knowledge Graph)"]
+    KG --> KB["அறிவுத்தளம்<br/>(Knowledge Base)"]
+    KG --> ONT["பொருள் உறவுமுறை<br/>அமைப்பு<br/>(Ontology)"]
+
+    RAG --> SK["பொருள்சார் அகடு<br/>(Semantic Kernel)"]
+
+    style EMB fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style VEC fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style CTX fill:#e8f5e9,stroke:#1a4d2e
+    style LS fill:#e8f5e9,stroke:#1a4d2e
+    style CS fill:#e8f5e9,stroke:#1a4d2e
+    style VDB fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style VS fill:#e8f5e9,stroke:#1a4d2e
+    style NS fill:#e8f5e9,stroke:#1a4d2e
+    style RAG fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style GRAG fill:#e8f5e9,stroke:#1a4d2e
+    style GRD fill:#e3f2fd,stroke:#1a4d2e
+    style KG fill:#e8f5e9,stroke:#1a4d2e
+    style KB fill:#e3f2fd,stroke:#1a4d2e
+    style ONT fill:#e3f2fd,stroke:#1a4d2e
+    style SK fill:#e3f2fd,stroke:#1a4d2e

@@ -1,0 +1,51 @@
+flowchart TB
+    SAFE["பாதுகாப்பு &<br/>நெறிமுறை<br/>(Safety & Ethics)"] --> GOV["ஆளுகை &<br/>பாதுகாப்பு"]
+    SAFE --> BIAS["சாய்வு &<br/>தாக்குதல்"]
+    SAFE --> EXPLAIN["விளக்கத்திறன்"]
+    SAFE --> EVAL["மதிப்பீடு"]
+
+    GOV --> ALIGN["நெறிசீரமைப்பு<br/>(Alignment)"]
+    GOV --> GUARD["பாதுகாப்பு<br/>வேலிகள்<br/>(Guardrails)"]
+    GOV --> CONST["அடிப்படை விதிச்<br/>செய்யறிவு<br/>(Constitutional AI)"]
+    GOV --> RESP["பொறுப்பான<br/>செய்யறிவு<br/>(Responsible AI)"]
+
+    BIAS --> SBIAS["சாய்வு<br/>(Bias)"]
+    BIAS --> FAIR["நேர்மை<br/>(Fairness)"]
+    BIAS --> RED["சிவப்பு அணி<br/>சோதனை<br/>(Red Teaming)"]
+    BIAS --> HALL["மதிமயக்கம்<br/>(Hallucination)"]
+    BIAS --> SYCO["முகதுதி<br/>(Sycophancy)"]
+    BIAS --> ROBUST["வலுவுறுதி<br/>(Robustness)"]
+
+    EXPLAIN --> XAI["விளக்கமளிக்கத்தக்க<br/>செய்யறிவு<br/>(XAI)"]
+    EXPLAIN --> MECH["இயக்கமுறை<br/>விளக்கத்திறன்<br/>(Mech Interp)"]
+    MECH --> SAE["சிதறல்<br/>தான்குறியாக்கி<br/>(SAE)"]
+    MECH --> STEER["வழிநடத்தல்<br/>(Steering)"]
+
+    EVAL --> BENCH["அளவுகோல்<br/>(Benchmark)"]
+    EVAL --> PREC["துல்லிய<br/>விகிதம்<br/>(Precision)"]
+    EVAL --> REC["மீட்டெடுப்பு<br/>விகிதம்<br/>(Recall)"]
+    EVAL --> F1["F1<br/>மதிப்பெண்"]
+
+    style SAFE fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style GOV fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style BIAS fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style EXPLAIN fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style EVAL fill:#1a4d2e,stroke:#0d3a1f,color:#fff
+    style ALIGN fill:#e8f5e9,stroke:#1a4d2e
+    style GUARD fill:#e8f5e9,stroke:#1a4d2e
+    style CONST fill:#e8f5e9,stroke:#1a4d2e
+    style RESP fill:#e8f5e9,stroke:#1a4d2e
+    style SBIAS fill:#e3f2fd,stroke:#1a4d2e
+    style FAIR fill:#e3f2fd,stroke:#1a4d2e
+    style RED fill:#e3f2fd,stroke:#1a4d2e
+    style HALL fill:#e3f2fd,stroke:#1a4d2e
+    style SYCO fill:#e3f2fd,stroke:#1a4d2e
+    style ROBUST fill:#e3f2fd,stroke:#1a4d2e
+    style XAI fill:#e8f5e9,stroke:#1a4d2e
+    style MECH fill:#e8f5e9,stroke:#1a4d2e
+    style SAE fill:#e8f5e9,stroke:#1a4d2e
+    style STEER fill:#e8f5e9,stroke:#1a4d2e
+    style BENCH fill:#e3f2fd,stroke:#1a4d2e
+    style PREC fill:#e3f2fd,stroke:#1a4d2e
+    style REC fill:#e3f2fd,stroke:#1a4d2e
+    style F1 fill:#e3f2fd,stroke:#1a4d2e

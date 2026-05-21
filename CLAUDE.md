@@ -16,6 +16,7 @@ When editing any Tamil content in this project, **always** apply these skills:
 
 - **tamil-article-review** — fact-check, fix grammar/sandhi/case-marker errors, remove English and Sanskrit borrowings, rewrite in pure Tamil
 - **natural-prose-formatting** — no em/en dashes, no bold/italic for emphasis mid-sentence, no list abuse, natural paragraph prose
+- **tamil-book-review** — validate chapter structure, term format, mandatory sections (objectives, story, quiz, summary, concept map), cross-chapter consistency, and prose quality for `book/` content
 
 These skills are installed at `~/.claude/skills/` and must not be duplicated into this repo.
 

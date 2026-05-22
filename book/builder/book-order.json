@@ -21,7 +21,7 @@
     "bodyLineHeight": "1.6",
     "bodyColor": "#333333",
     "headingColor": "#1a4d2e",
-    "h1FontSize": "14pt",
+    "h1FontSize": "13pt",
     "h2FontSize": "12pt",
     "h3FontSize": "11pt",
     "h4FontSize": "10pt",
@@ -180,6 +180,13 @@
       "tocLabel": "பிற்சேர்க்கை ஆ: துணை நூல்கள் & மேற்கோள்கள்",
       "files": [
         "book/12-appendix-references.md"
+      ]
+    },
+    {
+      "section": "About the Author",
+      "tocLabel": "ஆசிரியரைப் பற்றி",
+      "files": [
+        "book/back-info/about-authors.md"
       ]
     }
   ]

@@ -45,3 +45,4 @@ docs-glossary/
 - Commit messages follow Conventional Commits (`feat:`, `fix:`, `docs:`, etc.)
 - Use the Gitflow workflow in `.agent/workflows/push-feature-pr.md` for all changes
 - Markdown linting configured via `.markdownlint.json`
+- **Markdown List Indentation:** When nesting elements (like tables or sub-lists) inside a numbered list, indent them by exactly 4 spaces and include an empty line before them to prevent PDF conversion issues.

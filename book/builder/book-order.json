@@ -62,6 +62,9 @@
     "altTocPageLabel": "பக்கம்"
   },
   "contentProcessing": {
+    "imageCaptions": {
+      "enabled": true
+    },
     "admonitionHandling": {
       "enabled": true,
       "labelLanguage": "ta"
@@ -91,6 +94,14 @@
     }
   },
   "chapters": [
+    {
+      "section": "Front Cover",
+      "files": [
+        "book/cover-info/front-cover.md",
+        "book/cover-info/front-cover.png"
+      ],
+      "note": "PNG file is required for EPUB format cover"
+    },
     {
       "section": "முன்னுரை — Preface",
       "tocLabel": "முன்னுரை",
@@ -186,7 +197,14 @@
       "section": "About the Author",
       "tocLabel": "ஆசிரியரைப் பற்றி",
       "files": [
-        "book/back-info/about-authors.md"
+        "book/cover-info/about-authors.md"
+      ]
+    },
+    {
+      "section": "Back Cover",
+      "files": [
+        "book/cover-info/back-cover.md",
+        "book/cover-info/back-cover.png"
       ]
     }
   ]

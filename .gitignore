@@ -4,7 +4,7 @@
 # Claude Code internal memory
 .claude/
 
-# Copyrighted reference PDFs (see references/reference-location.txt for source URLs)
-references/
+# temporary build files
+book/builder/temp
 
 

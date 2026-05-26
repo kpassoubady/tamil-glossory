@@ -20,8 +20,18 @@
     "bodyFontSize": "9pt",
     "bodyLineHeight": "1.6",
     "bodyColor": "#333333",
-    "headingColor": "#1a4d2e",
+    "headingColor": "#002B18",
+    "headingMarginTop": "0.5em",
+    "headingMarginBottom": "0.3em",
     "h1FontSize": "13pt",
+    "h1MarginTop": "0em",
+    "h1MarginBottom": "1px",
+    "h2MarginTop": "1px",
+    "h2MarginBottom": "0.2em",
+    "h3MarginTop": "1px",
+    "h3MarginBottom": "0.2em",
+    "paragraphMarginTop": "0.2em",
+    "paragraphMarginBottom": "0.6em",
     "h2FontSize": "12pt",
     "h3FontSize": "11pt",
     "h4FontSize": "10pt",
@@ -37,14 +47,14 @@
       "hero-": {
         "maxWidth": "55%",
         "align": "center",
-        "marginTop": "0.4em",
-        "marginBottom": "1.2em"
+        "marginTop": "0px",
+        "marginBottom": "0px"
       },
       "diagrams/": {
         "maxWidth": "80%",
         "align": "center",
-        "marginTop": "0.8em",
-        "marginBottom": "0.8em"
+        "marginTop": "0px",
+        "marginBottom": "0px"
       }
     }
   },
@@ -65,7 +75,8 @@
   },
   "contentProcessing": {
     "imageCaptions": {
-      "enabled": true
+      "enabled": true,
+      "marginTop": "-14px"
     },
     "admonitionHandling": {
       "enabled": true,

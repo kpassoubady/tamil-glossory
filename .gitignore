@@ -12,3 +12,6 @@ book/builder/temp
 
 # Python cache
 __pycache__/
+
+# scratch/test files
+scratch/

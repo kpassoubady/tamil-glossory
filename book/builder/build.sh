@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Build Tamil AI Glossary ebook
-# Usage: ./build.sh [pdf|epub|docx]
+# Usage: ./build.sh [pdf|epub|docx] [--order FILE]
 
 set -euo pipefail
 
@@ -10,9 +10,11 @@ ORDER_FILE="$SCRIPT_DIR/book-order.json"
 OUTPUT_DIR="$SCRIPT_DIR/pdf"
 TEMP_DIR="$SCRIPT_DIR/temp"
 FORMAT="pdf"
+
 while [[ $# -gt 0 ]]; do
   case "$1" in
     -F|--format) FORMAT="$2"; shift 2 ;;
+    -o|--order) ORDER_FILE="$2"; shift 2 ;;
     *) FORMAT="$1"; shift ;;
   esac
 done

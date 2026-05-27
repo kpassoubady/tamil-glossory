@@ -1,0 +1,183 @@
+{
+  "bookTitle": "AI அலை: நீங்கள் தயாரா?",
+  "outputFilename": "Tamil-AI-Glossary-short-v3.pdf",
+  "author": "Kangeyan Passoubady",
+  "language": "en-US",
+  "pageSettings": {
+    "header": "{title}",
+    "headerFallback": "{bookTitle}",
+    "headerRight": "{page} of {pages}",
+    "footerLeft": "{date}",
+    "footerCenter": "தமிழில் 300+ செய்யறிவுக் கலைச்சொற்கள்",
+    "footerRight": "Kangs | Kavin School",
+    "dateFormat": "%B %d, %Y"
+  },
+  "styleSettings": {
+    "pageSize": "6in 9in",
+    "margins": "0.75in 0.6in 0.75in 0.8in",
+    "fontFamily": "'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', Helvetica, Arial, sans-serif",
+    "monoFontFamily": "SF Mono, Monaco, Menlo, Consolas, Liberation Mono, monospace",
+    "bodyFontSize": "9pt",
+    "bodyLineHeight": "1.6",
+    "bodyColor": "#333333",
+    "headingColor": "#002B18",
+    "headingMarginTop": "0.5em",
+    "headingMarginBottom": "0.3em",
+    "h1FontSize": "13pt",
+    "h1MarginTop": "0em",
+    "h1MarginBottom": "1px",
+    "h2MarginTop": "1px",
+    "h2MarginBottom": "0.2em",
+    "h3MarginTop": "1px",
+    "h3MarginBottom": "0.2em",
+    "paragraphMarginTop": "0.2em",
+    "paragraphMarginBottom": "0.6em",
+    "h2FontSize": "12pt",
+    "h3FontSize": "11pt",
+    "h4FontSize": "10pt",
+    "codeFontSize": "8pt",
+    "tableFontSize": "7.5pt",
+    "tableCellPadding": "2px 6px",
+    "tableMargin": "0.3em 0",
+    "codeBackground": "#f5f5f5",
+    "linkColor": "#0066cc",
+    "headerFontSize": "9px",
+    "footerFontSize": "8px",
+    "imageSizing": {
+      "hero-": {
+        "maxWidth": "55%",
+        "align": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "diagrams/": {
+        "maxWidth": "80%",
+        "align": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      }
+    }
+  },
+  "tocSettings": {
+    "titleFontSize": 18,
+    "subtitleFontSize": 12,
+    "subtitleText": "பொருளடக்கம் — Table of Contents",
+    "entryFontSize": 10,
+    "footerFontSize": 8,
+    "showMainToc": false,
+    "lineColor": "#1a4d2e",
+    "entryColor": "#1a4d2e",
+    "footerColor": "#666666",
+    "fontFamily": "'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', Helvetica, Arial, sans-serif",
+    "altTocTitle": "AI அலை: நீங்கள் தயாரா?",
+    "altTocSubtitle": "உள்ளடக்கம்",
+    "altTocPageLabel": "பக்கம்"
+  },
+  "contentProcessing": {
+    "imageCaptions": {
+      "enabled": true,
+      "marginTop": "-14px",
+      "figureMarginTop": "2px",
+      "figureMarginBottom": "2px"
+    },
+    "admonitionHandling": {
+      "enabled": true,
+      "labelLanguage": "ta",
+      "padding": "4px 8px",
+      "margin": "6px 0",
+      "titleSpacing": "2px"
+    },
+    "footnoteHandling": {
+      "enabled": true
+    },
+    "blockquoteListHandling": {
+      "enabled": true,
+      "padding": "4px 8px",
+      "margin": "6px 0",
+      "titleSpacing": "2px"
+    },
+    "titledListHandling": {
+      "enabled": true,
+      "margin": "6px 0",
+      "titleSpacing": "2px"
+    }
+  },
+  "imageOptimization": {
+    "default": {
+      "maxWidth": 800,
+      "maxHeight": 1000,
+      "jpegQuality": 75,
+      "convertToJpeg": true
+    },
+    "covers": {
+      "maxWidth": 2400,
+      "maxHeight": 3200,
+      "jpegQuality": 95,
+      "convertToJpeg": false
+    }
+  },
+  "indexSettings": {
+    "enabled": true,
+    "title": "கலைச்சொல் அட்டவணை — Term Index",
+    "tocLabel": "கலைச்சொல் அட்டவணை",
+    "layout": "two-column",
+    "termPattern": "^\\*\\*(.+?)\\s*[—–]\\s*(.+?)\\*\\*",
+    "sortBy": "english",
+    "pageLabel": "",
+    "h1FontSize": "11pt",
+    "headingColor": "#1a4d2e",
+    "titleBorder": false
+  },
+  "chapters": [
+    {
+      "section": "Front Cover",
+      "files": [
+        "book/cover-info/front-cover.md",
+        "book/cover-info/front-cover.png"
+      ],
+      "note": "PNG file is required for EPUB format cover"
+    },
+    {
+      "section": "அர்ப்பணம்",
+      "files": [
+        "book/00-dedication.md"
+      ],
+      "excludeFromToc": true
+    },
+    {
+      "section": "முன்னுரை — Preface",
+      "tocLabel": "முன்னுரை",
+      "files": [
+        "book/00-front-matter.md"
+      ]
+    },
+    {
+      "section": "1. செய்யறிவு அடிப்படைகள் — AI Foundations",
+      "tocLabel": "1. செய்யறிவு அடிப்படைகள்",
+      "files": [
+        "book/01-ai-foundations.md"
+      ]
+    },
+    {
+      "section": "2. இயந்திரக் கற்றல் — Machine Learning",
+      "tocLabel": "2. இயந்திரக் கற்றல்",
+      "files": [
+        "book/02-machine-learning.md"
+      ]
+    },
+    {
+      "section": "About the Author",
+      "tocLabel": "ஆசிரியரைப் பற்றி",
+      "files": [
+        "book/cover-info/about-authors.md"
+      ]
+    },
+    {
+      "section": "Back Cover",
+      "files": [
+        "book/cover-info/back-cover.md",
+        "book/cover-info/back-cover.png"
+      ]
+    }
+  ]
+}

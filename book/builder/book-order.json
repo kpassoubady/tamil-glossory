@@ -76,7 +76,9 @@
   "contentProcessing": {
     "imageCaptions": {
       "enabled": true,
-      "marginTop": "-14px"
+      "marginTop": "-14px",
+      "figureMarginTop": "2px",
+      "figureMarginBottom": "2px"
     },
     "admonitionHandling": {
       "enabled": true,

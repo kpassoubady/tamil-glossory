@@ -1,0 +1,40 @@
+{
+  "bookTitle": "வரைபட விளிம்பு சோதனை",
+  "outputFilename": "diagram-casing-test.pdf",
+  "author": "Kangeyan Passoubady",
+  "language": "ta",
+  "pageSettings": {
+    "header": "{title}",
+    "headerRight": "{page} of {pages}",
+    "footerCenter": "Edge Casing Test"
+  },
+  "styleSettings": {
+    "pageSize": "6in 9in",
+    "margins": "0.75in 0.6in 0.75in 0.8in",
+    "fontFamily": "'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', Helvetica, Arial, sans-serif",
+    "bodyFontSize": "9pt",
+    "bodyLineHeight": "1.6",
+    "bodyColor": "#333333",
+    "headingColor": "#002B18",
+    "h1FontSize": "13pt",
+    "h2FontSize": "12pt",
+    "h3FontSize": "11pt",
+    "imageSizing": {
+      "diagrams/": {
+        "maxWidth": "80%",
+        "align": "center"
+      }
+    }
+  },
+  "tocSettings": {
+    "showMainToc": false
+  },
+  "chapters": [
+    {
+      "section": "99. வரைபட விளிம்பு சோதனை",
+      "files": [
+        "llm-context/test/99-diagram-casing-test.md"
+      ]
+    }
+  ]
+}

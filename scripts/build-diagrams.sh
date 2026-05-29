@@ -23,6 +23,8 @@ set -e
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DIAGRAM_DIR="$REPO_ROOT/book/diagrams"
 MERMAID_CONFIG="$REPO_ROOT/scripts/mermaid-config.json"
+EDGE_CSS="$REPO_ROOT/scripts/edge-casing.css"
+CASING_SCRIPT="$REPO_ROOT/scripts/add-edge-casing.py"
 
 if [ ! -d "$DIAGRAM_DIR" ]; then
   echo "Error: diagrams directory not found at $DIAGRAM_DIR"
@@ -74,10 +76,13 @@ for mmd_file in "$DIAGRAM_DIR"/$pattern; do
 
   if [ "$format" = "png" ] || [ "$format" = "both" ]; then
     outputs="$filename.png"
+    # -C edge-casing.css adds a white halo around connectors/arrowheads so the
+    # transparent PNG stays legible on both light (day) and dark (night) pages.
     npx -y -p @mermaid-js/mermaid-cli mmdc \
       -i "$mmd_file" \
       -o "$DIAGRAM_DIR/$filename.png" \
       -c "$MERMAID_CONFIG" \
+      -C "$EDGE_CSS" \
       -b transparent \
       --scale 3 >/dev/null
   fi
@@ -96,6 +101,9 @@ for mmd_file in "$DIAGRAM_DIR"/$pattern; do
       --pdfFit >/dev/null
     # Extract vector outlines: <text> → <path>. WeasyPrint then renders perfectly.
     pdf2svg "$tmp_pdf" "$DIAGRAM_DIR/$filename.svg"
+    # Add a white vector casing under connectors/arrowheads so edges stay
+    # visible on both light (day) and dark (night) backgrounds.
+    python3 "$CASING_SCRIPT" "$DIAGRAM_DIR/$filename.svg" >/dev/null
     rm -rf "$tmp_dir"
   fi
 

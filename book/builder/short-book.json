@@ -87,7 +87,21 @@
       "labelLanguage": "ta",
       "padding": "4px 8px",
       "margin": "6px 0",
-      "titleSpacing": "2px"
+      "titleSpacing": "2px",
+      "customTypes": {
+        "PROMPT": {
+          "label": "▶ தூண்டுவினா",
+          "backgroundColor": "#EBF5FF",
+          "borderColor": "#0066CC",
+          "borderWidth": "3px",
+          "outlineColor": "#CCE0F5",
+          "borderRadius": "4px",
+          "labelColor": "#0066CC",
+          "labelFontSize": "7.5pt",
+          "useBodyFont": true,
+          "labelSeparator": true
+        }
+      }
     },
     "footnoteHandling": {
       "enabled": true,
